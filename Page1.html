@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <Title>Regestriton</Title>
+	<link rel="stylesheet" href="page2.css"/>
+	
+</head>
+<style>
+
+body {
+  background-image: url('images.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<body>
+<h2> Hello </h2>
+<p> Regestriton to complate the rent </p>
+ 
+    <form 
+
+onsubmit="runCode(event)"
+action="mailto:ahmedalabri6@gmail.com?subject=subject&message=message" method="post">
+<input type="text" name="" placeholder="الاسم الاول">
+<br>
+<input type="text" name="" placeholder="العائلة">
+<br>
+<input type="text" name="" placeholder="رقم الهاتف">
+<br>
+<input type="text" name="" placeholder="الايميل">
+<br>
+<input type="text" name="" placeholder="نوع الغرفة">
+<br>
+<input type="text" name="" placeholder="مدة الحجز">
+<br>
+<input type="reset" value="reset">
+<br>
+<input type="submit" value="send">
+<script>
+function submit(e){
+
+e.preventDefault();
+}
+
+ </form>
+ </body>
+</html>
